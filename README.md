@@ -25,4 +25,5 @@ Program memiliki dua mode tumbukan:
 Mode dapat diganti dengan menekan tombol SPACE.
 
 Kesimpulan
+
 Program simulasi bola memantul ini menunjukkan bahwa penggunaan algoritma pendeteksian tumbukan sangat berpengaruh terhadap efisiensi komputasi. Metode Bruteforce mudah diimplementasikan namun kurang efisien ketika jumlah bola meningkat karena harus melakukan pengecekan antar semua pasangan objek. Sebaliknya, metode Quadtree mampu mengoptimalkan proses pendeteksian tumbukan dengan membagi ruang simulasi sehingga pengecekan hanya dilakukan pada objek yang berdekatan. Dengan bantuan library Raylib, simulasi dapat divisualisasikan secara real-time dan jelas, sehingga program ini efektif digunakan sebagai media pembelajaran untuk memahami konsep collision detection dan struktur data spasial.
